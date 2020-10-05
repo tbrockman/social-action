@@ -1,0 +1,8 @@
+name: 'social-action'
+description: 'An action for automatic issue creation, to be used with GitHub Social'
+branding:
+  icon: 'message-square'
+  color: 'black'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
