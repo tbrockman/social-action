@@ -40,4 +40,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-3. Done
+3. Include the following for any pages you'd like to link to GitHub issues
+
+```html
+<script src="https://theo.lol/client.js"
+        repo="your-github-repo-here"
+        issue-term="issue-title-here"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+```
+
+4. Done
