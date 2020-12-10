@@ -1,6 +1,6 @@
 api_version: v1/social
 renderer: jekyll
 content: full
-base_url: 'https://isitajam.com'
+base_url: 'https://theo.lol'
 paths:
   - _posts/*
