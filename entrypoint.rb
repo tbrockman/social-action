@@ -1,7 +1,9 @@
 require "open3"
 
 # Install any extra gems which are specified
-`bundle install --gemfile=/github/workspace/Gemfile`
+
+gemfile = "/github/workspace/Gemfile"
+File.exists?(gemfile) && `bundle install --gemfile=#{gemfile}`
 `gem install octokit`
 `gem install yaml`
 
