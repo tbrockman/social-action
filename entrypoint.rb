@@ -4,6 +4,7 @@ require "open3"
 
 gemfile = "/github/workspace/Gemfile"
 File.exists?(gemfile) && `bundle install --gemfile=#{gemfile}`
+`gem install public_suffix -v 5.1.1`
 `gem install octokit`
 `gem install yaml`
 
